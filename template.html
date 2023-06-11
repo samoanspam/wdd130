@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> This is the Template </title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script>
+    function test() {
+        let x = document.getElementById("element1").value;
+        let y = document.getElementById("element2").value;
+        let output = x + y;
+
+        document.getElementById("outputDiv").innerHTML = output;
+    }
+</script>
+</head>
+<body>
+    <h1> Create Something! </h1>
+    <input type="text" id="element1">
+    <input type="text" id="element2">
+    <button type="button" onclick="test()"> Click Here! </button>
+    <div id="outputDiv"> First box + second box = ... </div>
+</body>
+</html>

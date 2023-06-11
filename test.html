@@ -1,0 +1,19 @@
+<html>
+    <script>
+        function test() {
+            let x = document.getElementById("element1").value;
+            let y = document.getElementById("element2").value;
+            let output = x + y;
+    
+            document.getElementById("outputDiv").innerHTML = output;
+        }
+    </script>
+    </head>
+    <body>
+        <h1> Create Something! </h1>
+        <input type="text" id="element1">
+        <input type="text" id="element2">
+        <button type="button" onclick="test()"> Click Here! </button>
+        <div id="outputDiv"> First box + second box = ... </div>
+    </body>
+</html>
