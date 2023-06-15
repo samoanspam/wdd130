@@ -1,21 +1,30 @@
-body {
-    color:dimgray; 
-    font-size: 16pt; 
-    background: darksalmon
+  html {
+    background-color:aqua;
   }
-  h1 {
-    color: black; 
-    text-align: center
-  }
-  table {
-      border-collapse: collapse;
-  }
-  td {
-      border: 1px solid navy;
+  body {
+      color:dimgray; 
+      font-size: 16pt; 
+      background: darksalmon;
+      margin: 0;
+      padding: 20px 0;
+      color:blueviolet;
+      text-shadow: 1px 1px 1px black;
+    }
+    h1 {
+      color: black; 
       text-align: center;
-      width: 100px;
-  }
-  .center {
-      margin-left: auto;
-      margin-right: auto;
-  }
+      display: block;
+      text-shadow: 10px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    td {
+        border: 1px solid navy;
+        text-align: center;
+        width: 100px;
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
