@@ -50,7 +50,11 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visted {
+nav a:link {
+    color: var(--nav-hover-link-color)
+}
+
+nav a:visted {
     color: var(--nav-hover-link-color)
 }
 
