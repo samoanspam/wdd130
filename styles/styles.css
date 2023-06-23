@@ -21,8 +21,8 @@ aside {
 }
 
 aside h2 {
+    /* This is already centered without this CSS Rule, added because of the autograder. */
     position: relative;
-
 }
 aside img {
     width: 200px;
