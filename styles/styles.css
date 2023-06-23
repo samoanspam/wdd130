@@ -21,8 +21,9 @@ aside {
 }
 
 aside h2 {
-    top: 1px;
-    position: relative;
+    top: 5px;
+    left: 855px;
+    position: absolute;
 }
 aside img {
     width: 200px;
