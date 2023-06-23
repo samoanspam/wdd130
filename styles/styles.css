@@ -20,6 +20,12 @@ aside {
     position: relative; 
 }
 
+aside h2 {
+    position: top;
+    top: 5px;
+    right: 20px;
+
+}
 aside img {
     width: 200px;
     height: auto;
