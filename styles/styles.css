@@ -9,7 +9,7 @@ nav {
     padding: 10px;
     line-height: 1pt;
 }
-
+/* font-size: larger; */
 main {
    max-width: 840px;
 }
@@ -21,7 +21,7 @@ aside {
 }
 
 aside h2 {
-    /* This is already centered without this CSS Rule, added because of the autograder. */
+    top: 1px;
     position: relative;
 }
 aside img {
