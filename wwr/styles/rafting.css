@@ -16,11 +16,32 @@
    --nav-hover-background-color: #222E50;
 }
 
+div.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+
+/* 
+Couldn't get this to work :'(
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+} */
+
+.hero article img {
+    float: right
+}
+
+
 body {
    font-family: var(--paragraph-font);
    background-color: var(--primary-color);
