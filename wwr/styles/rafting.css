@@ -16,9 +16,10 @@
    --nav-hover-background-color: #222E50;
 }
 
-div {
+main div {
     position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
