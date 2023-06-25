@@ -16,31 +16,11 @@
    --nav-hover-background-color: #222E50;
 }
 
-div.hero{
-    position: relative;
-}
-
-h1{
-    position: absolute;
-}
-
-article{
-    position: absolute;
-    background-color: skyblue;
-    opacity: 35%;
-}
-
-main section h2{
-    position: relative;
-}
-
-div.hero img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
-    float: right;
 }
-
 body {
    font-family: var(--paragraph-font);
    background-color: var(--primary-color);
