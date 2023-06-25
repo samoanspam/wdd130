@@ -16,7 +16,7 @@
    --nav-hover-background-color: #222E50;
 }
 
-div {
+div.hero{
     position: relative;
 
     h1{
