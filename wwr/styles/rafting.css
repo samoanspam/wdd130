@@ -29,6 +29,11 @@ div.hero {
 /* 
 Couldn't get this to work :'(
 
+div.hero h1, div.hero article {
+    position: absolute;
+    opacity: 10%
+}
+
 .hero h1 {
     position: absolute;
 }
@@ -37,7 +42,7 @@ Couldn't get this to work :'(
     position: absolute;
 } */
 
-.hero article img {
+article.hero img {
     float: right
 }
 
