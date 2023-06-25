@@ -16,14 +16,21 @@
    --nav-hover-background-color: #222E50;
 }
 
-main div {
+/* div.hero {
     position: relative;
 }
 
+div h1{
+    position: absolute;
+}
+
+div article{
+    position: absolute;
+}
+ */
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
 }
 
 body {
