@@ -51,7 +51,7 @@ nav a {
 
 h1 {
     color: steelblue;
-    border-bottom: 110000000px pink;
+    border-bottom: 1px solid steelblue;
 }
 
 main img {
