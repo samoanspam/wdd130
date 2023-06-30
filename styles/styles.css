@@ -18,7 +18,7 @@ main {
 }
 
 main section img {
-    width: 700;
+    width: 700px;
 }
 
 aside {
@@ -34,6 +34,7 @@ aside {
 aside h2 {
     position: relative;
 }
+
 aside img {
     width: 200px;
     height: auto;
