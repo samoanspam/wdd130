@@ -80,7 +80,7 @@ nav {
    font-size: 1.2rem;
    display: flex;
    list-style: none;
-   align-items: right;
+   align-items: flex-end;
 }
 
 nav a {
@@ -88,13 +88,13 @@ nav a {
    color: var(--nav-hover-link-color);
    text-decoration: none;
    padding: 1rem;
-   align-items: right;
+   align-items: flex-end;
 }
 
 nav a:link {
    color: var(--nav-hover-link-color);
    flex: 1 1 100%;
-   align-items: right;
+   align-items: flex-end;
 }
 
 nav a:visited {
