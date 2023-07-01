@@ -60,19 +60,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-   padding:20px;
+   display: grid;
+   grid-template-columns: 10px 1fr 1fr 1fr;
+   align-items:last baseline;
+   max-width: 1000px;
+   padding: 20px;
    background-color: var(--secondary-color);
+   justify-content: center;
 }
 
 p {
    font-family: var(--paragraph-font);
    padding: 25px;
+   min-width: 100px;
 }
 
 nav {
    background-color: var(--nav-background-color);
    font-size: 1.2rem;
    display: flex;
+   list-style: none;
+   align-items: right;
 }
 
 nav a {
@@ -80,10 +88,13 @@ nav a {
    color: var(--nav-hover-link-color);
    text-decoration: none;
    padding: 1rem;
+   align-items: right;
 }
 
 nav a:link {
-   color: var(--nav-hover-link-color)
+   color: var(--nav-hover-link-color);
+   flex: 1 1 100%;
+   align-items: right;
 }
 
 nav a:visited {
@@ -93,4 +104,32 @@ nav a:visited {
 nav a:hover {
    color: var(--nav-hover-link-color);
    background-color: var(--nav-hover-background-color)
+}
+
+.images h2 {
+   justify-content: center;
+}
+
+main {
+   display: grid;
+   grid-template-columns: 30% 20% 50%;
+   justify-content: space-between;
+}
+
+/* .images {
+   display: grid;
+   justify-content: space-between;
+   align-items: center;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   grid-template-rows: 20% 20% 20% 20% 20%;
+} */
+
+footer nav{
+   display: grid;
+   grid-template-columns: 20fr 20fr 20fr;
+   grid-template-rows: 1fr;
+   justify-items: flex-end;
+   justify-content: flex-end;
+   align-items: baseline;
+   align-items: flex-end;
 }
