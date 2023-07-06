@@ -116,8 +116,8 @@ nav a:hover {
 
 main {
    display: grid;
-   grid-template-columns: 30% 20% 50%;
-   justify-content: space-between;
+   grid-template-columns: 500px 1fr 500px 33% 1fr 400px 1fr;
+   justify-content: space-between 100px;
 }
 
 /* .images {
