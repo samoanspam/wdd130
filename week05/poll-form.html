@@ -16,7 +16,31 @@
     </body>
     
     <main>
-
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <label for="fullname">Full Name: </label>
+                        <input type="text" id="fullname" name="fullname">
+                    <label for="email">Email: </label>
+                        <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                    <label for="favoriteBrowser">What is your favorite Browser? </label>
+                        <select name="favoriteBrowser" id="favoriteBrowser">
+                            <option value="chrome">Chrome</option>
+                            <option value="chrome">Safari</option>
+                            <option value="chrome">Edge</option>
+                            <option value="chrome">Firefox</option>
+                            <option value="chrome">Other</option>
+                        </select>
+                    <label for="pet">Do you have a pet at your house? </label>
+                        <input type="checkbox" id="pet" name="pet">
+                    <label for="feedback">List all the places you've lived!: </label>
+                    <textarea name="feedback" id="feedback" rows="5" placeholder="Olympia Washington, Rexburg Idaho, New York City New Yourk"></textarea>
+            </fieldset>
+            <button type="submit">Click here to Submit!</button>
+        </form>
     </main>
 
     <footer>
