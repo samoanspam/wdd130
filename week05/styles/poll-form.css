@@ -5,6 +5,7 @@
     --secondary-color: #455d7A;
     --tertiary-color: #F95959;
     --quaternary-color: #E3E3E3;
+    --another-color: #09814A;
 }
 
 * {
@@ -34,7 +35,7 @@ h1 {
 
 form {
     display: grid;
-    width: 500px;
+    width: 1000px;
     margin: 0 auto;
     padding: 2rem;
     border: 1px solid black;
@@ -45,6 +46,72 @@ fieldset {
     display: grid;
     grid-gap: 1rem;
     margin: 2rem;
-    border: 1px solid black;
+    border: 1px solid var(--tertiary-color);
     padding: 2rem;
+}
+
+legend {
+    padding: 1rem;
+    color: var(--tertiary-color);
+    font-size: 1.5rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    color: black;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 2rem;
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: var(--another-color);
+}
+
+footer {
+    margin: 2rem auto 0;
+    width: 500px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--quaternary-color);
+    border-top: 1px solid var(--secondary-color);
+}
+
+input, select, textarea {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto;
+}
+
+/* CLASS SELECTORS */
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
 }

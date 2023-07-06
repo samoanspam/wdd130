@@ -11,7 +11,7 @@
     
     <body>
         <header>
-            <h1>WDD 130 | Teia Patane | HTML Form -User Poll</h1>
+            <h1>WDD 130 | Teia Patane | HTML Form - User Poll</h1>
         </header>
     </body>
     
@@ -19,25 +19,33 @@
         <form action="">
             <fieldset>
                 <legend>Contact Information</legend>
-                    <label for="fullname">Full Name: </label>
-                        <input type="text" id="fullname" name="fullname">
-                    <label for="email">Email: </label>
-                        <input type="email" id="useremail" name="useremail">
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name: </label>
+                            <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="email">Email: </label>
+                            <input type="email" id="useremail" name="useremail">
+                    </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                    <label for="favoriteBrowser">What is your favorite Browser? </label>
-                        <select name="favoriteBrowser" id="favoriteBrowser">
-                            <option value="chrome">Chrome</option>
-                            <option value="chrome">Safari</option>
-                            <option value="chrome">Edge</option>
-                            <option value="chrome">Firefox</option>
-                            <option value="chrome">Other</option>
-                        </select>
-                    <label for="pet">Do you have a pet at your house? </label>
-                        <input type="checkbox" id="pet" name="pet">
-                    <label for="feedback">List all the places you've lived!: </label>
-                    <textarea name="feedback" id="feedback" rows="5" placeholder="Olympia Washington, Idaho Falls Idaho, NewYork City New York, Honolulu Hawaii"></textarea>
+                    <div class="form-item column1">
+                         <label for="favoriteBrowser">What is your favorite Browser? </label>
+                            <select name="favoriteBrowser" id="favoriteBrowser">
+                                <option value="chrome">Chrome</option>
+                                <option value="chrome">Safari</option>
+                                <option value="chrome">Edge</option>
+                                <option value="chrome">Firefox</option>
+                                <option value="chrome">Other</option>
+                            </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a pet at your house? </label>
+                            <input type="checkbox" id="pet" name="pet">
+                        <label for="feedback">List all the places you've lived: </label>
+                        <textarea name="feedback" id="feedback" rows="5" placeholder="Olympia Washington, Idaho Falls Idaho, NewYork City New York, Honolulu Hawaii"></textarea>
+                    </div>
             </fieldset>
             <button type="submit">Click here to Submit!</button>
         </form>
