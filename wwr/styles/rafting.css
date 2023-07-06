@@ -10,9 +10,9 @@
    --heading-font: Roboto, italic;
    --paragraph-font: Inter, italic;
 
-   --nav-background-color: #BFD7EA;
+   --nav-background-color: #0000FF;
    --nav-link-color: #91AEC1;
-   --nav-hover-link-color: #508CA4;
+   --nav-hover-link-color: #FFFFFF;
    --nav-hover-background-color: #222E50;
 }
 
@@ -128,12 +128,21 @@ main {
    grid-template-rows: 20% 20% 20% 20% 20%;
 } */
 
-footer nav{
-   display: grid;
-   grid-template-columns: 20fr 20fr 20fr;
-   grid-template-rows: 1fr;
-   justify-items: flex-end;
+footer nav {
+   display: flex;
    justify-content: flex-end;
-   align-items: baseline;
-   align-items: flex-end;
-}
+ }
+ 
+ footer nav ul {
+   display: flex;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ footer nav li {
+   margin-left: 10px; 
+ }
+ 
+
+ 
