@@ -3,14 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rapid Thrlls Company Contact Page/title>
+        <title>Rapid Thrlls Company Contact Page/title></title>
         <meta name="description" content="Teia Patane, WDD 130, to to provide links to contact the different branches of the company.">
         <meta name="author" content="Teia Patane">
         <link rel="stylesheet" type="text/css" href="styles/rafting.css">
     </head>
     <body>
         <header>
+            <div class="companylogo">
             <img src="images/rapid-thrills-co.png" alt="Rapid Thrills Company Logo">
+            </div>
             <nav>
                 <a href="https://samoanspam.github.io/wdd130/">index.html</a>
                 <a href="https://samoanspam.github.io/wdd130/wwr/about.html">about.html</a>
@@ -20,8 +22,56 @@
         </header>
 
         <main>
-            
+            <h1>Company Information</h1>
+                Address: 111 W 7th. S Rexburg, ID 83440
+                <br>
+                Email: rapidthrillsco@gmail.com
+                Phone Number: 360-451-5085
+                
 
+            <h1>Our Staff!
+                <img src="images/chad.jpg" alt="Employee: Chad Date">
+                <img src="images/cate.jpg" alt="Employee: Cate Gupta">
+                <img src="images/dash.jpg" alt="Employee: Dash Smith">
+            </h1>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.1786499967775!2d-111.79014932331937!3d43.810653642232296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b1aaed56695%3A0xe935f544855b6d69!2sUniversity%20Village%20Apartments!5e0!3m2!1sen!2sus!4v1688870350872!5m2!1sen!2sus" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <div class="form-item column2">
+                            <label for="q1">What is your first and last name? </label>
+                                <input type="text" id="q1" name="q1">
+                        </div>
+                        <div class="form-item column2">
+                            <label for="q2">What is your email address? </label>
+                                <input type="text" id="q2" name="q2">
+                        </div>
+                        <div class="form-item column1">
+                             <label for="q3">What is the purpose of your message? </label>
+                             <br>
+                                <select name="q3" id="q3">
+                                    <option value="chrome">General Inquiry</option>
+                                    <option value="chrome">Reservation Question</option>
+                                    <option value="chrome">Website Suggestion</option>
+                                    <option value="chrome">File a Complaint</option>
+                                </select>
+                        </div>
+                        <div class="form-item column1">
+                            <label for="q5">Please Subscribe me to the Monthly Newsletter</label>
+                            <input type="checkbox" id="q5" name="q5">
+                        </div>
+                        <div class="form-item column1">
+                            <label for="q4">Write your message below: </label>
+                            <br>
+                            <textarea name="q4" id="q4" cols="30" rows="10"></textarea>
+                        </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
             
         </main>
 
