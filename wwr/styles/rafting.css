@@ -131,7 +131,7 @@ nav a:hover {
 main {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   justify-content: space-between 100px;
+   justify-content: space-between;
 }
 
 footer nav {
