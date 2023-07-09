@@ -53,12 +53,18 @@
                         <div class="form-item column1">
                              <label for="q3">What is the purpose of your message? </label>
                              <br>
-                                <select name="q3" id="q3">
-                                    <option value="chrome">General Inquiry</option>
-                                    <option value="chrome">Reservation Question</option>
-                                    <option value="chrome">Website Suggestion</option>
-                                    <option value="chrome">File a Complaint</option>
-                                </select>
+                                <input type="radio" name="radioGeneral" id="radioGeneral">
+                                <br>
+                                    <label for="general"> General Inquiry </label>
+                                <input type="radio" name="radioQuestion" id="radioQuestion">
+                                <br>
+                                    <label for="question"> Reservation Question </label>
+                                <input type="radio" name="radioSuggestion" id="radioSuggestion">
+                                <br>
+                                    <label for="suggestion"> Website Suggestion </label>
+                                <input type="radio" name="radioComplaint" id="radioComplaint">
+                                <br>
+                                    <label for="complaint"> File a Complaint </label>
                         </div>
                         <div class="form-item column1">
                             <label for="q5">Please Subscribe me to the Monthly Newsletter</label>

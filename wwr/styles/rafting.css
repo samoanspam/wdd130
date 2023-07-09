@@ -233,6 +233,7 @@ img {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 1rem 0;
+    margin: auto 0;
 }
 
 .column2 {
