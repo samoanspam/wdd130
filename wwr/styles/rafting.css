@@ -165,13 +165,13 @@ fieldset {
     grid-gap: 1rem;
     margin: 1rem;
     border: 1px solid var(--accent1-color);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 legend {
     padding: 1rem;
     color: var(--nav-link-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 label {
@@ -193,13 +193,13 @@ input[type="checkbox"] {
 }
 
 button {
-    margin: 2rem;
-    background-color: var(--quaternary2-color);
-    color: var(--secondary2-color);
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
     border: none;
     border-radius: 1rem;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -249,4 +249,40 @@ article.hero img {
 
 .companylogo {
    place-items: center;
+}
+
+.body {
+   background-image: url("background.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed; 
+   background-size: 100% 100%;
+}
+
+.form-index {
+   display: flex;
+   justify-content: center;
+}
+
+.form-index-change {
+   display: inline-block;
+   justify-content: center;
+   width: 700px;
+   margin: 0 auto;
+   padding: 1rem;
+   border: 1.5px solid black;
+   background-color: var(--nav-hover-background-color);
+}
+
+.photos {
+   padding: 3rem;
+   justify-content: space-between ;
+   display: grid;
+   grid-template-columns: 500px auto 500px;
+   max-width: 100%;
+   margin-inline-end: 50px;
+   max-height: auto;
+}
+
+.tags-intro {
+   color: #9ED8DB;
 }
