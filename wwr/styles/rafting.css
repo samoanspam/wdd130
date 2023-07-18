@@ -280,7 +280,6 @@ article.hero img {
    grid-template-columns: 500px auto 500px;
    max-width: 100%;
    margin-inline-end: 50px;
-   max-height: auto;
 }
 
 .tags-intro {
