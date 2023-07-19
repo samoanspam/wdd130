@@ -285,3 +285,12 @@ article.hero img {
 .tags-intro {
    color: #9ED8DB;
 }
+
+.trips-tags {
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+}
+
+.trips-pictures {
+   display: inline;
+}
