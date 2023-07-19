@@ -74,7 +74,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    font-family: var(--heading-font);
-   color: var(--accent2-color)
+   color: var(--accent2-color);
+   display: flex;
 }
 
 header {
@@ -131,7 +132,7 @@ nav a:hover {
 main {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   justify-content: space-between;
+   justify-content: center;
 }
 
 footer nav {
@@ -230,13 +231,13 @@ img {
 }
 
 .column1 {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 1rem 0;
     margin: auto 0;
 }
 
 .column2 {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .images h2 {
